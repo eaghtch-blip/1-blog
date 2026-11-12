@@ -1,7 +1,5 @@
 body {
-  background:linear-gradient(conic-gradient,#FFFFFF00);
   background:linear-gradient(#FDC5C5,#F298DE00);
-  background:#F39494;
 }
 h1{
   color:#333333;
@@ -21,13 +19,7 @@ h1{
   font-size:18px;
   font-family:"Open Sans", monospace;
 }
-.head {
-background-color:#FFFEFE;
-}
-.main{
-background-color:#FFFEFE;
-}
-.foot{
+.diff {
 background-color:#FFFEFE;
 }
 h2{
@@ -54,4 +46,13 @@ h2{
   font-family:"Open Sans", monospace;
   font-weight:400;
   font-size:14px;
+}
+.charlie{
+color:#999999; 
+font-family: "Open Sans",monospace;
+font-size:16px;
+font-weight:400;
+}
+.echo{
+color:#F5F5F5;
 }
