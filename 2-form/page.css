@@ -1,0 +1,53 @@
+body {
+  background:linear-gradient(conic-gradient,#FFFFFF00);
+  background:linear-gradient(#FDC5C5,#F298DE00);
+  background:#F39494;
+}
+h1{
+  font-size:36px;
+  font-family:"Open Sans", monospace;
+  font-weight:700;
+}
+.acc {
+  font-family:"Open Sans",monospace;
+  font-weight:400;
+  font-size:18px;
+}
+.ref{
+  font-weight:400;
+  font-size:18px;
+  font-family:"Open Sans", monospace;
+}
+.head {
+background-color:#FFFEFE;
+}
+.main{
+background-color:#FFFEFE;
+}
+.foot{
+background-color:#FFFEFE;
+}
+h2{
+  font-family:"Open Sans", monospace;
+  font-weight:600;
+  font-size:16px;
+}
+.but{
+  background-color:#089FE0;
+  color:#FFFFFF;
+  font-family:"Open Sans", monospace;
+  font-weight:400;
+  font-size:18px;
+}
+.readed{
+  font-family:"Open Sans",monospace;
+  font-weight:400;
+  font-size:14px;
+  color:#666666;
+}
+.usage{
+  color:#089FE0;
+  font-family:"Open Sans", monospace;
+  font-weight:400;
+  font-size:14px;
+}
