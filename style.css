@@ -1,0 +1,40 @@
+head{
+  font-family:"Roboto";
+  font-weight:400;
+  font-size:18px;
+}
+h1{
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:24px;
+}
+#namee{
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#creator{
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:14px;
+  color:#FFFF;
+}
+#lal {
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:20px;
+  color:#FFFF;
+}
+#nah {
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:16px;
+  color:#FFFF;
+}
+#jok{
+      font-family:"Roboto";
+  font-weight:400;
+  font-size:16px;
+  color:#FFFF;
+}
