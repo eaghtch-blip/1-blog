@@ -1,0 +1,35 @@
+nav{
+  font-family:"Roboto";
+  font-weight:400;
+  font-size:18px;
+}
+.theory{
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:24px;
+}
+.creator{
+    font-family:"Roboto";
+  font-weight:400;
+  font-size:14px;
+  color:#FFFF;
+  background-color:#374151;
+}
+
+.pop{
+      font-family:"Roboto";
+  font-weight:400;
+  font-size:16px;
+  color:#FFFF;
+  background-color:#374151;
+}
+.all{
+  background:linear-gradient(#374151,#111827);
+}
+.popl{
+        font-family:"Roboto";
+  font-weight:400;
+  font-size:20px;
+  color:#FFFF;
+  background-color:#374151;
+}
