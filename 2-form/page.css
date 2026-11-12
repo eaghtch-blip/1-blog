@@ -4,16 +4,19 @@ body {
   background:#F39494;
 }
 h1{
+  color:#333333;
   font-size:36px;
   font-family:"Open Sans", monospace;
   font-weight:700;
 }
 .acc {
+  color:#666666;
   font-family:"Open Sans",monospace;
   font-weight:400;
   font-size:18px;
 }
 .ref{
+  color:#089FE0;
   font-weight:400;
   font-size:18px;
   font-family:"Open Sans", monospace;
@@ -28,6 +31,7 @@ background-color:#FFFEFE;
 background-color:#FFFEFE;
 }
 h2{
+  color:#333333;
   font-family:"Open Sans", monospace;
   font-weight:600;
   font-size:16px;
