@@ -35,9 +35,6 @@ h2{
   font-weight:400;
   font-size:18px;
 }
-.but:hover {
-  background-color:#3c11a9;
-}
 .readed{
   font-family:"Open Sans",monospace;
   font-weight:400;
@@ -49,9 +46,6 @@ h2{
   font-family:"Open Sans", monospace;
   font-weight:400;
   font-size:14px;
-}
-.usage:hover {
-  color:#3c11a9;
 }
 .charlie{
 color:#999999; 
