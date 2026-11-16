@@ -34,6 +34,7 @@ ul li{
   color:#FFFFFF;
   border-radius:100px; 
   margin-bottom:80px;
+  display:inline-block;
 }
 header {
   width:180px;
@@ -47,10 +48,9 @@ header {
 h1{
   width:525px;
   font-family:"Roboto" monospace;
-  margin-top:80px;
   color:#FFFFFF;
   padding:14px 457px 30px 458px;
-  margin: 0 auto;
+  margin: 80px auto 0 0;
   
 }
 address{
