@@ -1,59 +1,86 @@
-body {
-  background:linear-gradient(#FDC5C5,#F298DE00);
+*{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+body{
+  background:linear-gradient(#FFA5A5,#FFFFFF);
+}
+main{
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  gap: 4vh;
+  padding:40vh;
+  background-color:white;
 }
 h1{
-  color:#333333;
-  font-size:36px;
-  font-family:"Open Sans", monospace;
+  font-size:12vh;
   font-weight:700;
-}
-.acc {
-  color:#666666;
-  font-family:"Open Sans",monospace;
-  font-weight:400;
-  font-size:18px;
-}
-.ref{
-  color:#089FE0;
-  font-weight:400;
-  font-size:18px;
-  font-family:"Open Sans", monospace;
-}
-.diff {
-background-color:#FFFEFE;
-}
-h2{
   color:#333333;
-  font-family:"Open Sans", monospace;
-  font-weight:600;
-  font-size:16px;
+  margin: 2vh;
 }
-.but{
-  background-color:#089FE0;
+.address{
+  display:flex;
+  flex-direction: row;
+}
+section div{
+  color:#666666;
+  font-size:6vh;
+  font-weight:400;
+}
+section a{
+  font-size:6vh;
+  color:#089FE0;
+  font-weight:400;
+  margin: 4vh;
+}
+label{
+  color:#333333;
+  font-size:6vh;
+}
+
+.middlepart input{
+  color:#999999;
+  padding: 1vh 4vh;
+  font-size: 6vh;
+  background-color:#F5F5F5;
+  display:flex;
+  flex-direction:row;
+  margin:2vh;
+}
+.middlepart input:nth-child(1){
+  padding: 1vh 8vh;
+  background-color:#FFFFFF;
+  border-radius:1px;
+  border:none;
+  display:inline-block;
+  
+}
+.middlepart input:nth-child(4){
+  padding: 1vh 8vh;
+  display:inline-block;
+  margin: 4vh;
+}
+button{
   color:#FFFFFF;
-  font-family:"Open Sans", monospace;
+  font-size:7vh;
   font-weight:400;
-  font-size:18px;
+  padding: 2vh 10vh;
+  background-color:#089FE0;
+  border-radius:5px;
+  border-color:none;
+  margin-bottom: 4vh;
 }
-.readed{
-  font-family:"Open Sans",monospace;
+section{
+  font-size: 2vh;
   font-weight:400;
-  font-size:14px;
+  display:flex;
+  flex-direction:row;
+}
+small label {
   color:#666666;
 }
-.usage{
+small a{
   color:#089FE0;
-  font-family:"Open Sans", monospace;
-  font-weight:400;
-  font-size:14px;
-}
-.charlie{
-color:#999999; 
-font-family: "Open Sans",monospace;
-font-size:16px;
-font-weight:400;
-}
-.echo{
-color:#333333;
-background-color: #F5F5F5;
 }
