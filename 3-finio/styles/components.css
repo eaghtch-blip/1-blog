@@ -1,0 +1,31 @@
+.paragraph{
+  font-weight:500;
+  font-size:17px;
+  line-height:140%;
+  font-style:medium;
+  color:var(--color-table-text);
+}
+.article__wrapper{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns: [start-left] 1fr [start-center] 1fr [start-end] 1fr [right-end];
+}
+.button{
+  display:block;
+  width:100%;
+  padding:56px;
+  border-radius:var(--border-47);
+  font-weight:800;
+  line-height:140%;
+  border: none;
+  background: none;
+  cursor:pointer;
+  text-decoration: none;
+  text-align: center;
+  align-content:center;
+}
+.table{
+  width:100%;
+  border-collapse: collapse;
+  table-layout:fixed ;
+}

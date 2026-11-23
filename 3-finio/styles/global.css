@@ -1,0 +1,24 @@
+root:{
+  --color-bg-main-page:#FFFFFF;
+  --color-text-paragraph:#4E5D7C80;
+  --color-table-text:#4E5D7C;
+  --color-bg-button:#357EFE;
+  --color-benefit-primary:#FFC736;
+  --color-benefit-secondary:#1ABC9C;
+  --color-main-text:#000000;
+  --color-bg-card:#4E5D7C29;
+
+  --border-47:47px;
+  --border-8: 8px;
+
+  --pagee-width:1156px;
+}
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: "Inter",monospace;
+}
+body{
+  background-color: var(--color-bg-main-page);
+}
