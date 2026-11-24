@@ -1,18 +1,18 @@
-.header{
-  width:var(--pagee-width);
-}
+
 .header__wrapper{
   display:grid;
   grid-template-columns: [right-start] 1fr [ceter-start] 1fr [left-start] 1fr [left-end];
   grid-template-rows: [right-start] 50px [ceter-start] 50px [left-start];
   gap:24px;
+  max-width: 1156px;
+ margin: 0 auto;
+ justify-items:center;
 
 }
 .header__main-name{
   color:var(--color-main-text);
   grid-row: right-start / ceter-start;
   grid-column: ceter-start / left-start;
-  margin:0  auto  ;
 }
 .header__paragraph-div{
   grid-row: ceter-start/ left-start;

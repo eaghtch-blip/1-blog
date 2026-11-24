@@ -9,11 +9,14 @@
   margin-top:40px;
   display:grid;
   grid-template-columns: [start-left] 1fr [start-center] 1fr [start-end] 1fr [right-end];
+  max-width: 1156px;
+ margin: 0 auto;
+ gap:24px;
 }
 .button{
   display:block;
   width:100%;
-  padding:56px;
+  padding:12px 63px;
   border-radius:var(--border-47);
   font-weight:800;
   line-height:140%;
@@ -22,7 +25,7 @@
   cursor:pointer;
   text-decoration: none;
   text-align: center;
-  align-content:center;
+  align-self:end;
 }
 .table{
   width:100%;
