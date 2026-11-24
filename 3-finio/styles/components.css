@@ -13,7 +13,7 @@
 .button{
   display:block;
   width:100%;
-  padding:56px;
+  padding:12px 63px;
   border-radius:var(--border-47);
   font-weight:800;
   line-height:140%;
@@ -22,7 +22,7 @@
   cursor:pointer;
   text-decoration: none;
   text-align: center;
-  align-content:center;
+  align-self:end;
 }
 .table{
   width:100%;

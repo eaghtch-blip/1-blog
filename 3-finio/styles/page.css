@@ -1,13 +1,18 @@
 .card{
   width:369px;
   padding:48px 32px;
-  background: var(--color-bg-main-page);
   border-radius:var(--border-8);
   border: 1px solid var(--color-bg-card);
-  display:flex;
-  flex-direction: column;
-  gap:12px;
+  display: grid;
+  gap: 12px;
   align-content:center;
+}
+.card__primary{
+  background: var(--color-bg-main-page);
+}
+.card__secondary{
+  background:var(--color-bg-button);
+
 }
 .card__table{
   margin-bottom:28px;   
@@ -33,4 +38,17 @@
   font-size: 15px;
   font-weight:800;
   line-height:140%;
+  border-radius:var(--border-8);
+  justify-self:start;
+}
+.table__vigoda{
+  background:var(--color-benefit-primary);
+  padding: 8px 16px;
+  border-radius:var(--border-8);
+  display: grid;
+  justify-self: start;
+}
+.button__card-secondary{
+  color:var(--color-bg-button);
+  background-color: var(--color-bg-main-page);
 }

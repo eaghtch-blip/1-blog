@@ -1,4 +1,4 @@
-root:{
+:root{
   --color-bg-main-page:#FFFFFF;
   --color-text-paragraph:#4E5D7C80;
   --color-table-text:#4E5D7C;
@@ -18,7 +18,9 @@ root:{
 }
 html{
   font-family: "Inter",monospace;
+  width: var(--pagee-width);
 }
 body{
+  width:var(--pagee-width);
   background-color: var(--color-bg-main-page);
 }
